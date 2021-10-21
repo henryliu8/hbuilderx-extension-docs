@@ -1,8 +1,8 @@
-> Only supports HBuilderX 1.9.0+
+> Supported from HBuilderX 1.9.0+
 
 ### What is Vue Doc ?
 
-It can be understood as vue `component` instructions.
+It can be regarded as vue `component` instructions.
 
 When using `components` in other files, a code prompt will pop up.
 
@@ -22,7 +22,7 @@ Mainly used in the `script` part, it needs to be written on the `export default`
 */
 ```
 
-Among them, the type between the @property and @event `{` `}` is the type, and the type of event must be **Function**.
+In `{` `}` of the @property and the @event is the type, and the type of event must be **Function**.
 
 ### Example
 
@@ -30,8 +30,8 @@ Among them, the type between the @property and @event `{` `}` is the type, and t
 ```javascript
 <script>
   /**
-   * Page turning component
-   * @description Page turning component
+   * Pagination component
+   * @description Pagination component
    * @tutorial http://www.baidu.com
    * @property {Number} total Total number of page data
    * @property {String} size = [big|small] Component size
